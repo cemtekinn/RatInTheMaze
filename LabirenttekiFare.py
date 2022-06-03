@@ -51,7 +51,7 @@ def hareket_et(labirent, x, y, matris):
         if hareket_et(labirent, x - 1, y, matris) == True:   #sola hareket et
             return True
         
-        if hareket_et(labirent, x, y - 1, matris) == True:   #yukarı hareke et
+        if hareket_et(labirent, x, y - 1, matris) == True:   #yukarı hareket et
             return True 
         
         matris[x][y] = "*"                                   # yanlış yola girdiğinde * işaretini koy
